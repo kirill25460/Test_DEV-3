@@ -3,6 +3,7 @@ import './css/styles.css';
 const inputText = document.getElementById('inputText');
 const applyButton = document.getElementById('applyButton');
 const result = document.getElementById('result');
+let initialPositionX, initialPositionY;
 
 inputText.addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
